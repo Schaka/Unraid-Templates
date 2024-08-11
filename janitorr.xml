@@ -6,7 +6,7 @@
     <Network>bridge</Network>
     <Shell>bash</Shell>
     <Privileged>false</Privileged>
-    <Support>https://github.com/Schaka/janitorr/issues</Support>
+    <Support>https://forums.unraid.net/topic/172461-support-janitorr/</Support>
     <Project>https://github.com/Schaka/janitorr</Project>
     <Overview>
         Cleans your Radarr, Sonarr, Jellyseerr and Jellyfin or Emby before you run out of space on your server. &#xD;
