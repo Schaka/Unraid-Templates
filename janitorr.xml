@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-    <Name>Janitorr - Official</Name>
+    <Name>Janitorr-Official</Name>
     <Repository>ghcr.io/schaka/janitorr:native-stable</Repository>
     <Registry>https://github.com/Schaka/janitorr</Registry>
     <Network>bridge</Network>
@@ -9,23 +9,23 @@
     <Support>https://forums.unraid.net/topic/172461-support-janitorr/</Support>
     <Project>https://github.com/Schaka/janitorr</Project>
     <Overview>
-        Cleans your Radarr, Sonarr, Jellyseerr and Jellyfin or Emby before you run out of space on your server. &#xD;
-        Before updating, please make sure your config matches the latest config template on GitHub. &#xD;&#xD;
+Cleans your Radarr, Sonarr, Jellyseerr and Jellyfin or Emby before you run out of space on your server. &#xD;
+Before updating, please make sure your config matches the latest config template on GitHub. &#xD;&#xD;
 
-        See this thread for why you shouldn't use any unofficial app: https://github.com/JamsRepos/Unraid-Templates/issues/1
+See this thread for why you shouldn't use any unofficial app: https://github.com/JamsRepos/Unraid-Templates/issues/1
     </Overview>
     <Description>
-        The official Unraid App for Janitorr published by its developer. &#xD;
-        See this thread for why you shouldn't use any unofficial app: https://github.com/JamsRepos/Unraid-Templates/issues/1
+The official Unraid App for Janitorr published by its developer. &#xD;
+See this thread for why you shouldn't use any unofficial app: https://github.com/JamsRepos/Unraid-Templates/issues/1
     </Description>
     <Category>MediaApp:Video MediaServer:Video Other: Tools: Status:Stable</Category>
     <Icon>https://raw.githubusercontent.com/Schaka/janitorr/main/logos/janitorr_icon.png</Icon>
     <TemplateURL>https://raw.githubusercontent.com/Schaka/janitorr/main/unraid/janitorr.xml</TemplateURL>
     <Requires>
-        Before you can start using Janitorr, please make sure to read the README at https://github.com/Schaka/janitorr &#xD;
-        It's important you understand how directories need to be mapped, so Janitorr sees the same files as Jellyfin/Emby and your *arrs. This may require additional volume mounts to this template. &#xD;
-        You need to create the application.yml file under /mnt/user/appdata/janitorr/config/application.yml before Janitorr can start up. &#xD;
-        The config template linked in the README contains all necessary config options and documentation. It is recommended to update this before manually before updating your Janitorr version. &#xD;
+Before you can start using Janitorr, please make sure to read the README at https://github.com/Schaka/janitorr &#xD;
+It's important you understand how directories need to be mapped, so Janitorr sees the same files as Jellyfin/Emby and your *arrs. This may require additional volume mounts to this template. &#xD;
+You need to create the application.yml file under /mnt/user/appdata/janitorr/config/application.yml before Janitorr can start up. &#xD;
+The config template linked in the README contains all necessary config options and documentation. It is recommended to update this before manually before updating your Janitorr version. &#xD;
     </Requires>
     <Config Name="application.yml path" Target="/workspace/application.yml" Default="" Mode="rw" Description="Where the config file will be stored" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/janitorr/config/application.yml</Config>
     <Config Name="Media Volume" Target="/data" Default="" Mode="rw" Description="Add the directory to where your media is stored" Type="Path" Display="always" Required="true" Mask="false"/>
