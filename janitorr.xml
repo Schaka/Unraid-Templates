@@ -22,7 +22,7 @@ See this thread for why you shouldn't use any unofficial app: https://github.com
     </Description>
     <Category>MediaApp:Video MediaServer:Video Other: Tools: Status:Stable</Category>
     <Icon>https://raw.githubusercontent.com/Schaka/janitorr/main/logos/janitorr_icon.png</Icon>
-    <TemplateURL>https://raw.githubusercontent.com/Schaka/janitorr/main/unraid/janitorr.xml</TemplateURL>
+    <TemplateURL>https://raw.githubusercontent.com/Schaka/unraid-templates/main/janitorr.xml</TemplateURL>
     <Requires>
 Before you can start using Janitorr, please make sure to read the README at https://github.com/Schaka/janitorr &#xD;
 It's important you understand how directories need to be mapped, so Janitorr sees the same files as Jellyfin/Emby and your *arrs. This may require additional volume mounts to this template. &#xD;
