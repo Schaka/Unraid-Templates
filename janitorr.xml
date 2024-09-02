@@ -10,15 +10,13 @@
     <Project>https://github.com/Schaka/janitorr</Project>
     <Overview>
     <ExtraParams>--user 99:100</ExtraParams>
-    <PostArgs/>    
+    <PostArgs/> 
+    <Overview>    
 Cleans your Radarr, Sonarr, Jellyseerr and Jellyfin or Emby before you run out of space on your server. &#xD;
 Before updating, please make sure your config matches the latest config template on GitHub. &#xD;&#xD;
-
-See this thread for why you shouldn't use any unofficial app: https://github.com/JamsRepos/Unraid-Templates/issues/1
     </Overview>
     <Description>
-The official Unraid App for Janitorr published by its developer. &#xD;
-See this thread for why you shouldn't use any unofficial app: https://github.com/JamsRepos/Unraid-Templates/issues/1
+The official Unraid App for Janitorr published by its developer.
     </Description>
     <Category>MediaApp:Video MediaServer:Video Other: Tools: Status:Stable</Category>
     <Icon>https://raw.githubusercontent.com/Schaka/janitorr/main/logos/janitorr_icon.png</Icon>
