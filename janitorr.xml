@@ -27,5 +27,6 @@ You need to create the application.yml file under /mnt/user/appdata/janitorr/con
 The config template linked in the README contains all necessary config options and documentation. It is recommended to update this before manually before updating your Janitorr version. &#xD;
     </Requires>
     <Config Name="application.yml path" Target="/workspace/application.yml" Default="" Mode="rw" Description="Where the config file will be stored" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/janitorr/config/application.yml</Config>
+    <Config Name="logs path" Target="/logs" Default="" Mode="rw" Description="Where your files will be written, if enabled" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/janitorr/logs</Config>
     <Config Name="Media Volume" Target="/data" Default="" Mode="rw" Description="Add the directory to where your media is stored" Type="Path" Display="always" Required="true" Mask="false"/>
 </Container>
